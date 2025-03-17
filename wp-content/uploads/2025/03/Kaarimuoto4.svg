@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1600px" height="181px" viewBox="0 0 1600 181" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="V4" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="KIDE-etusivu" transform="translate(0, -1825)">
+            <g id="uusi-muoto" transform="translate(-2, 1825)">
+                <path d="M1604,124.367619 C1603.93581,124.293104 1603.93581,82.837231 1604,0 C536.001109,0 1.33444257,0 0,0 C0,2.78046049 0,45.6845745 0,64.4910027 C220.964585,125.937308 294.680958,180.525921 492.103197,181 C689.525434,181.472184 806.824674,4.64260126 1015.46014,4.14125567 C1224.0956,3.63991007 1368.10034,122.984035 1604,124.367619 Z" id="Path-2-Copy-3" fill="#FFFFFF" stroke="none"></path> <!-- Keep the line color here -->
+            </g>
+        </g>
+    </g>
+</svg>

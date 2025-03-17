@@ -1,0 +1,58 @@
+/*!********************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/two-images-block/style.scss ***!
+  \********************************************************************************************************************************************************************************************************************************************************/
+.body {
+  font-family: "Public Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.wp-block-create-block-two-images-block {
+  display: flex;
+  background-color: #EDF4F5;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+}
+.wp-block-create-block-two-images-block .frontImage {
+  box-sizing: border-box;
+  width: 80%;
+  margin-left: -40%;
+  z-index: 2;
+  background: white;
+  background-repeat: no-repeat;
+  background-size: 100%; /* Each image is 25% of the container width */
+  background-position: center center;
+  height: 400px; /* Adjust as needed */
+  /*padding: 50px 32px;*/
+  overflow: hidden;
+  max-height: 85%;
+  margin-right: 3rem;
+}
+.wp-block-create-block-two-images-block .backgroundImage {
+  width: 90%;
+  position: relative;
+  background-color: #235C5F;
+  background-repeat: round; /* Repeat the image horizontally */
+  background-position: top right, top right; /* Align both lines to top left */
+  background-size: 20%; /* Adjust the image size */
+  padding: 20px;
+  height: 100%; /* Adjust the height for two rows */
+  background-attachment: local; /* Optional: Keeps the background fixed */
+}
+@media (max-width: 768px) {
+  .wp-block-create-block-two-images-block .frontImage {
+    width: 90%;
+    margin-left: -80%;
+    margin-right: 0px;
+  }
+  .wp-block-create-block-two-images-block .backgroundImage {
+    width: 90%;
+  }
+}
+
+/* Hide title on pages */
+.page .entry-title {
+  display: none;
+}

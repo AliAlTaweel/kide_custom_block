@@ -1,0 +1,116 @@
+/*!***************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/sectemplate/style.scss ***!
+  \***************************************************************************************************************************************************************************************************************************************************/
+@import url(https://fonts.googleapis.com/css2?family=Public+Sans:wght@100..900&display=swap);
+/*!*******************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js??ruleSet[1].rules[4].use[1]!./node_modules/postcss-loader/dist/cjs.js??ruleSet[1].rules[4].use[2]!./node_modules/sass-loader/dist/cjs.js??ruleSet[1].rules[4].use[3]!./src/sectemplate/style.scss (1) ***!
+  \*******************************************************************************************************************************************************************************************************************************************************/
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.secTemplate {
+  padding-top: 2rem;
+  margin-bottom: 1rem;
+  font-family: "Public Sans", sans-serif;
+  max-width: none !important;
+  background-color: white;
+}
+.secTemplate .container {
+  margin: 1px auto 32px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 4rem;
+  width: 80%;
+}
+.secTemplate .container .titleAndIcon {
+  width: 33%;
+  min-width: 33%;
+  flex-shrink: 0;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.secTemplate .container .titleAndIcon h2 {
+  text-transform: uppercase;
+  color: #222222;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-style: italic;
+  color: #222222;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 2.5rem;
+}
+.secTemplate .container .titleAndIcon img {
+  padding-top: 1rem;
+  width: 7rem;
+  padding-right: 1rem;
+  margin-bottom: 1rem;
+}
+.secTemplate .container .textAndBtns {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.secTemplate .container .textAndBtns p {
+  font-size: 1.1rem;
+  margin-bottom: 0.6rem;
+}
+.secTemplate .container .textAndBtns .wp-block-button {
+  display: inline-block;
+  background-color: transparent;
+  margin-bottom: 14px;
+}
+.secTemplate .container .textAndBtns .wp-block-button .wp-block-button__link {
+  text-align: right;
+  width: 18rem;
+  background-color: rgb(255, 255, 255);
+  color: #222222;
+  border-radius: 0px;
+  border: 1px solid rgba(24, 78, 81, 0.5294117647);
+  padding: 15px 20px;
+  font-size: 0.9rem;
+  transition: background 0.3s;
+  text-transform: uppercase;
+}
+.secTemplate .container .textAndBtns .wp-block-button .wp-block-button__link:hover {
+  background-color: #194D50;
+  color: white;
+}
+@media screen and (max-width: 768px) {
+  .secTemplate .container {
+    flex-direction: column;
+    gap: 5px;
+    width: 100%;
+  }
+  .secTemplate .container .titleAndIcon h2 {
+    font-size: 2rem;
+  }
+  .secTemplate .kuvella {
+    display: none;
+  }
+}
+@media screen and (max-width: 480px) {
+  .secTemplate .wp-block-image.size-full.is-resized img {
+    width: 80px !important; /* Reduce image size further */
+  }
+}
+
+.editor-visual-editor__post-title-wrapper {
+  display: none;
+}
+
+.block-editor-block-list__block,
+.no-padding-margin,
+.wp-block-group {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
+
+.wp-block-template-part {
+  margin-top: 0px !important;
+}

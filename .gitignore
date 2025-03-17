@@ -1,0 +1,14 @@
+# Ignore WordPress Core files
+wp-admin/
+wp-includes/
+wp-config.php
+wp-content/upgrade/
+wp-content/cache/
+
+# Ignore Local Development files
+*.log
+*.sql
+node_modules/
+vendor/
+.DS_Store
+.env

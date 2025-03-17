@@ -1,0 +1,66 @@
+
+
+.body{
+	font-family: "Public Sans", serif;
+	font-optical-sizing: auto;
+	font-weight: 200;
+	font-style: normal;
+}
+.wp-block-create-block-two-images-block {
+	display: flex;
+	background-color: #EDF4F5;
+	justify-content: center;
+	align-items: center;
+	height: 400px;
+	
+	
+
+	.frontImage {
+		box-sizing: border-box;
+		width: 80%;
+		margin-right: -40%;
+		z-index: 2;
+		background: white;
+		background-repeat: no-repeat;
+		background-size: 100%; /* Each image is 25% of the container width */
+		background-position: center center;
+		height: 400px; /* Adjust as needed */
+		/*padding: 50px 32px;*/
+		overflow: hidden;
+		max-height: 85%;
+		margin-left: 3rem;
+
+	}
+	.backgroundImage {
+		width: 90%;
+		position: relative;
+		background-color: #235C5F;
+		background-repeat: round; /* Repeat the image horizontally */
+		background-position: top left, top left; /* Align both lines to top left */
+		background-size: 20%; /* Adjust the image size */
+		padding: 20px;
+		height: 100%; /* Adjust the height for two rows */
+		background-attachment: local; /* Optional: Keeps the background fixed */
+	}
+
+
+	@media (max-width: 768px){
+
+		
+			.frontImage {
+				width: 90%;
+				margin-right: -80%;
+				margin-left: 0px;
+			}
+	
+			.backgroundImage{
+				width: 90%;
+			
+			}
+		
+	}
+}
+/* Hide title on pages */
+.page .entry-title {
+    display: none;
+}
